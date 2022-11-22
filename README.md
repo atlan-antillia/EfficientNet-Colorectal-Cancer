@@ -28,7 +28,19 @@ The image dataset <b>CRC-VAL-HE-7K</b> used here has been taken from the followi
 Zenodo: 100,000 histological images of human colorectal cancer and healthy tissue<br>
 https://zenodo.org/record/1214456#.Y3sVDHZBy3A
 <br>
-
+Tissue classes included in the dataset are the following:<br>
+<pre>
+ADI    : Adipose 
+BACK   : Background
+DEB    : Debris 
+LYM    : Lymphocytes
+MUC    : Mucus
+MUS    : Smooth muscle
+NORM   : Normal colon mucosa 
+STR    : Cancer-associated stroma  
+TUM    : Colorectal adenocarcinoma epithelium
+</pre>
+<br>
 <br>We use python 3.8 and tensorflow 2.8.0 environment on Windows 11.<br>
 <br>
 
