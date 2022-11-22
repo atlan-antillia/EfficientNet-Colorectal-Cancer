@@ -73,7 +73,7 @@ CRC-VAL-HE-7K
 </pre>
 
 <b>2, Convert jpg files</b> <br>
- For simplicity, we have removed <b>BACK</b> and <b>DEB</b> folder from original dataset. and converted the original tif files
+ For simplicity, we have removed <b>BACK</b> and <b>DEB</b> folders from the original dataset, and converted the original tif files
  to jpg files by using <a href="./projects/Colorectal-Cancer/jpg_converter.py">jpg_converter.py</a> script.<br>
 <pre>
 CRC-VAL-HE-7K-jpg-master
@@ -87,9 +87,9 @@ CRC-VAL-HE-7K-jpg-master
 </pre>
 
 <b>3, Split master dataset</b> <br>
- We have split the <b>CRC-VAL-HE-7K-jpg-master</b> to <b>train</b> and <b>test</b> by using 
+ We have splitted the <b>CRC-VAL-HE-7K-jpg-master</b> to <b>train</b> and <b>test</b> by using 
  <a href="./projects/Colorectal-Cancer/split_master.py">split_master.py</a> script.<br>
-Finally, we have created the <b>CRC-VAL-HE-7K-images</b> dataset from the <b>CRC-VAL-HE-7K-jpg-master</b> dataset.<br>
+Finally, we have created the following <b>CRC-VAL-HE-7K-images</b> dataset from the <b>CRC-VAL-HE-7K-jpg-master</b> dataset.<br>
 <pre>
 CRC-VAL-HE-7K-images
 ├─test
@@ -404,8 +404,29 @@ Confusion matrix:<br>
 <h3>
 References
 </h3>
-<b>1.Zenodo: 100,000 histological images of human colorectal cancer and healthy tissue
+<b>1. Zenodo: 100,000 histological images of human colorectal cancer and healthy tissue
 </b><br>
 <pre>
 https://zenodo.org/record/1214456#.Y3sVDHZBy3A
+</pre>
+
+<b>2. Deep Learning Techniques for the Classification of Colorectal Cancer Tissue
+</b><br>
+Min-Jen Tsai and Yu-Han Tao<br>
+<pre>
+https://www.mdpi.com/2079-9292/10/14/1662/htm
+</pre>
+
+<b>3. Enhancing Histopathological Colorectal Cancer Image Classification by using Convolutional Neural Network
+</b><br>
+Radwan Al.Shawesh, Yi Xiang Chen<br>
+<pre>
+https://www.medrxiv.org/content/10.1101/2021.03.17.21253390v1.full
+</pre>
+
+<b>4. Predicting survival from colorectal cancer histology slides using deep learning: A retrospective multicenter study
+</b><br>
+Jakob Nikolas Kather et al.<br>
+<pre>
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6345440/
 </pre>
