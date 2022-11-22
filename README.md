@@ -111,7 +111,7 @@ CRC-VAL-HE-7K-images
 </pre>
  
 The distribution of the number of images in the dataset is the following:<br>
-<img src="./projects/Colorectal-Cancer/_CRC-VAL-HE-7K-images_.png" width="740" height="auto"><br>
+<img src="./projects/Colorectal-Cancer/_CRC-VAL-HE-7K-Images_.png" width="740" height="auto"><br>
 <br>
 
 CRC-VAL-HE-7K-images/train/ADI:<br>
